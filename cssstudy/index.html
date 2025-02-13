@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern CSS - 성우의 블로그</title>
+  <link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+  <!-- ✅ 네비게이션 바 추가 -->
+  <nav class="navbar">
+    <a href="#" class="logo">🌐 성우의 블로그</a>
+    <ul class="nav-links">
+      <li><a href="#">홈</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">문의하기</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ 헤더 (제목 + 이미지 추가) -->
+  <header class="header">
+    <h1>성우의 첫 HTML+CSS 블로그</h1>
+    <img src="./elon.webp" alt="블로그 대표 이미지">
+  </header>
+
+  <!-- ✅ Grid 기반 메인 컨테이너 -->
+  <div class="container">
+    <!-- ✅ 왼쪽 사이드바 -->
+    <nav class="sidebar">
+      <h4>오늘 학습한 내용</h4>
+      <ol>
+        <li>CSS에 대하여</li>
+        <li>HTML과의 관계</li>
+        <li>CSS - ID & Class</li>
+        <li>CSS - Color</li>
+        <li>CSS - Font & Text</li>
+        <li>CSS - Link & Button</li>
+        <li>Flexbox</li>
+        <li>Grid</li>
+        <li>Media Queries</li>
+      </ol>
+    </nav>
+
+    <!-- ✅ 메인 콘텐츠 -->
+    <main class="main-content">
+      <h2>1.0 CSS에 대하여</h2>
+      <p>CSS(Cascading Style Sheets)는 웹 페이지의 시각적 스타일을 정의하는 스타일 시트 언어입니다.</p>
+      
+      <!-- ✅ 본문 이미지 추가 -->
+      <img src="css-guide.png" alt="CSS 가이드 이미지" class="content-image">
+
+      <h3>CSS의 주요 개념</h3>
+      <ul>
+        <li>선택자 (Selector) - 스타일을 적용할 HTML 요소 선택</li>
+        <li>속성 (Property)과 값 (Value) - 스타일을 설정할 속성과 값 지정</li>
+        <li>박스 모델 (Box Model) - HTML 요소의 레이아웃 구성</li>
+        <li>플렉스박스 (Flexbox) - 요소를 가로/세로 정렬</li>
+        <li>그리드 (Grid) - 2차원 배치 시스템</li>
+        <li>미디어 쿼리 (Media Queries) - 반응형 웹 디자인</li>
+      </ul>
+    </main>
+
+    <!-- ✅ 오른쪽 사이드바 -->
+    <aside class="sidebar-right">
+      <h4>이전 블로그 내용 요약</h4>
+      <p>HTML이란? HTML(HyperText Markup Language)은 웹 페이지의 구조를 정의하는 표준 마크업 언어입니다.</p>
+    </aside>
+  </div>
+
+  <!-- ✅ 푸터 -->
+  <footer class="footer">
+    <p>&copy; 2025 성우의 블로그. All rights reserved.</p>
+  </footer>
+</body>
+</html>
