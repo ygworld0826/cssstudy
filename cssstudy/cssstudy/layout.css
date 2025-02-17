@@ -57,9 +57,9 @@ body {
 }
 
 .header img {
-  width: 50%;
-  max-width: 400px;
-  margin-top: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 15px;
   border-radius: 10px;
 }
 
@@ -78,41 +78,11 @@ body {
   border-radius: 8px;
 }
 
-/* ✅ 이미지 & 동영상 가로 정렬 */
-.media-container {
-  display: flex; /* Flexbox 적용 (가로 정렬) */
-  justify-content: center; /* 중앙 정렬 */
-  align-items: center; /* 세로 정렬 */
-  gap: 20px; /* 요소 사이 간격 */
-  padding: 20px 0;
-  flex-wrap: wrap; /* 반응형: 화면이 좁아지면 줄바꿈 */
-}
-
-/* ✅ 이미지 & 동영상 가로 정렬 */
-.media-container {
-  display: flex; /* 가로 정렬 */
-  justify-content: center; /* 가운데 정렬 */
-  align-items: center; /* 세로 정렬 */
-  gap: 20px; /* 요소 간 간격 */
-  padding: 20px 0;
-  flex-wrap: wrap; /* 화면이 작아지면 줄 바꿈 */
-}
-
-/* ✅ 대표 이미지 스타일 (높이 조정) */
-.header-image {
-  width: 40%; /* 가로 크기 조정 */
-  max-width: 300px; /* 최대 크기 */
-  height: 200px; /* 동영상과 동일한 높이 설정 */
-  object-fit: cover; /* 비율을 유지하며 채우기 */
-  border-radius: 10px;
-}
-
-/* ✅ 유튜브 동영상 스타일 (높이 조정) */
-.content-video {
-  width: 50%; /* 가로 크기 조정 */
-  max-width: 560px; /* 최대 크기 */
-  height: 200px; /* 이미지와 동일한 높이 설정 */
-  border-radius: 10px;
+/* ✅ 본문 이미지 스타일 */
+.content-image {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
 }
 
 /* ✅ 푸터 */
